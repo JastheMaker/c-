@@ -1,0 +1,22 @@
+
+#include <iostream>
+
+int main()
+
+{
+	int N1, N2, temp;
+	std::cout << "PERMUTTATION DU CONTENUE DE 2 VARIABLES\n";
+	std::cout << "Donnez la valeur de la variables N1:";
+	std::cin >> N1  ;
+	std::cout << "Donnez la valeur de la variables N2:";
+	std::cin >> N2  ;
+	std::cout << "--------------------------------------------\n";
+	temp = N1;
+	N1 = N2;
+	N2 = temp;
+	std::cout << "APRES PERMUTATION\n";
+	std::cout << "La variables N1 contient:" << N1 <<std::endl;
+	std::cout << "La variables N2 contient:" << N2  ;
+	return 0;
+}
+
